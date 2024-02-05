@@ -1,0 +1,8 @@
+<div id="card">
+<img [src]="Nedvizhnost.picture">
+<div id="podatoci">
+<p id="naslov">{{Nedvizhnost.name}}</p>
+<p>{{Nedvizhnost.area}} m2</p>
+<p>{{Nedvizhnost.price}} € <img src="../../assets/favoriteoff.png" (click)="addtofavorites($event)"></p>
+</div>
+</div>

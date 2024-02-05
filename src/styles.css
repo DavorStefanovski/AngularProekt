@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    margin:0;
+    background-image: url('./assets/background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* styles.css */
+
+body, h1, h2, h3, p, div, 
+ul, ol, li, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
